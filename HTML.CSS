@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightyellow;
+}
+
+h1 {
+  color: pink;
+  text-align: center;
+}
+
+p {
+  color: white
+  font-family: roboto;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Payton Cianfarano</h1>
+<h2>Miscellaneous Creative</h2>
+<p>Payton Cianfarano is a student creative currenlty studying at the University of Pittsburgh. Her work consists mostly of writings from various genres such as poetry, creative non-fiction, and screenwriting. Although, she also ventures out into other styles such as filmmaking and graphic design.</p>
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="gallery">
+  <a target="_blank" href="1.png">
+    <img src="1.png" alt="Email Writing and Design" width="600" height="400">
+  </a>
+  <div class="desc">Example of writing and design for client email.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="bird 2.png">
+    <img src="bird 2.png" alt="Ad Writing" width="600" height="400">
+  </a>
+  <div class="desc">Example of copywriting. Artwork by Aodan Reddy.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="some dyes-2.png">
+    <img src="some dyes-2.png" alt="Visual Argument" width="600" height="400">
+  </a>
+  <div class="desc">Visual argument about fast fashion.</div>
+</div>
+
+</body>
+</html>
